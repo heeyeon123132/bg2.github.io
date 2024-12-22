@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+}
+
+.top{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    /* background-color: #000; */
+    z-index: 10;
+    background: radial-gradient(
+        rgba(110, 110, 110, 0.3),
+        rgba(0, 0, 0, 0.8)
+    );
+}
+
+
+.wrap{
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 20;}
+
+
+.logo{height: 230px;text-align: center;padding-top: 102px;}
+.logo2{height: 230px;text-align: center;padding-top: 102px;}
+
+.bt00{height: 43px;padding-top: 40px;text-align: center;}
+
+
+
+/* 서브페이지 스타일 */
+
+.box01{
+    width: 100%;
+    height: 100%; 
+
+}
